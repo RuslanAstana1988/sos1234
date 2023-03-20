@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/s1995s1/sestem333",
+    "homepage": "https://github.com/RuslanAstana1988/sos1234",
     "author": {
-        "name": "s1995s1"
+        "name": "RuslanAstana1988"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/s1995s1/sestem333.git"
+        "url": "git+https://github.com/RuslanAstana1988/sos1234.git"
     },
     "bugs": {
-        "url": "https://github.com/s1995s1/sestem333/issues"
+        "url": "https://github.com/RuslanAstana1988/sos1234/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

@@ -61,9 +61,9 @@ pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/s1995s1/sestem333.
+git clone https://github.com/RuslanAstana1988/sos1234.
 
-cd sestem333
+cd sos1234
 ```
 
 ```bash
