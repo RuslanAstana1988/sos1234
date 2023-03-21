@@ -33,7 +33,7 @@ this.sendPresenceUpdate('recording', m.chat)
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
 if (!chat.isBanned && chat.audios && m.text.match(/(Лев|лев)/gi)) {
-let vn = './media/лев.mp3'
+let vn = './media/Лев.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
@@ -53,12 +53,12 @@ this.sendPresenceUpdate('recording', m.chat)
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
 if (!chat.isBanned && chat.audios && m.text.match(/(Овен|овен)/gi)) {
-let vn = './media/овен.mp3'
+let vn = './media/Овен.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
 if (!chat.isBanned && chat.audios && m.text.match(/(Козерог|козерог)/gi)) {
-let vn = './media/козерог.mp3'
+let vn = './media/Козерог.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
