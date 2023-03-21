@@ -175,7 +175,7 @@ mediaUrl: null,
 title: '👑Хулиган - 𝐁𝐎𝐓 👑',
 body: null,
 thumbnail: img,
-sourceUrl: `Бот Серёги`
+sourceUrl: `Бот Руслана`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
