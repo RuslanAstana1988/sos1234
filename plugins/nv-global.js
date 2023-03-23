@@ -42,13 +42,13 @@ let vn = './media/закусь.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
-if (!chat.isBanned && chat.audios && m.text.match(/(Рак|рак)/gi)) {
-let vn = './media/Рак.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(Я бы орден дал|я бы орден дал)/gi)) {
+let vn = './media/орден.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
-if (!chat.isBanned && chat.audios && m.text.match(/(Близнецы|близнецы)/gi)) {
-let vn = './media/Близнецы.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(Верю|верю)/gi)) {
+let vn = './media/дичь.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
