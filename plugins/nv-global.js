@@ -52,13 +52,13 @@ let vn = './media/дичь.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
-if (!chat.isBanned && chat.audios && m.text.match(/(Телец|телец)/gi)) {
-let vn = './media/Телец.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(Завтра посмотрим|завтра посмотрим)/gi)) {
+let vn = './media/лишь.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
-if (!chat.isBanned && chat.audios && m.text.match(/(Овен|овен)/gi)) {
-let vn = './media/Овен.mp3'
+if (!chat.isBanned && chat.audios && m.text.match(/(Саша умничка|саша умничка)/gi)) {
+let vn = './media/саша.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
 
