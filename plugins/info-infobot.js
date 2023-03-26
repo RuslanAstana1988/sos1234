@@ -19,7 +19,7 @@ let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 let info = `
-╠═〘 ИНФО О БОТЕ ХулиганА 〙 ═
+╠═〘 ИНФО О БОТЕ ПИЗДЮКА 〙 ═
 ╠
 ╠➥ [🤴🏻] СОЗДАТЕЛЬ: *─•••꧔ꦿꦼꦿРуслан─•••꧔ꦿꦼꦿ*
 ╠➥ [#️⃣] НОМЕР: *+77786696820*

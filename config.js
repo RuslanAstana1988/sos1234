@@ -8,7 +8,7 @@ global.owner = [
 global.suittag = ['77786696820'] 
 global.prems = ['77786696820'] 
 
-global.packname = '(☞Хулиган)☞'
+global.packname = '(☞ПИЗДЮК)☞'
 global.author = '★ЭЛИС- 𝙱𝚘𝚝★'
 global.wm = '★ЭЛИС- 𝙱𝚘𝚝★'
 global.igfg = '★ЭЛИС- 𝙱𝚘𝚝★'
