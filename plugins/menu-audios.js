@@ -10,7 +10,7 @@ let name = await conn.getName(m.sender)
 let str = `
 
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'wa.me/+77786696820', 'СОЗДАТЕЛЬ', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'wa.me/+77789008940', 'СОЗДАТЕЛЬ', null, null, [
 ['МЕНЮ', '#меню']
 ], m)
 }}
