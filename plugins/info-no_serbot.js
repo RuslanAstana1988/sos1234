@@ -29,6 +29,6 @@ let buttonMessage= {
 {buttonId: `${usedPrefix}instalarbot`, buttonText: {displayText: '𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝚁𝙱𝙾𝚃'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
-handler.command = /^(ЦАРЬБОТ)/i
+handler.command = /^(РуслананБОТ)/i
 export default handler
 

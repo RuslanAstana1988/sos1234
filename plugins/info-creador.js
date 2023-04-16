@@ -28,8 +28,8 @@ let buttonMessage= {
 {buttonId: `${usedPrefix}donar`, buttonText: {displayText: 'ОПЛАТА БОТА'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
-//let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Царь 👑;;;\nFN:Царь 👑\nORG:Царь👑\nTITLE:\nitem1.TEL;waid=+77789008940:+521 999 612 5657\nitem1.X-ABLabel:Царь👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:Царь 👑\nEND:VCARD`
-//await conn.sendMessage(m.chat, { contacts: { displayName: 'Царь 👑', contacts: [{ vcard }] }}, {quoted: m})
+//let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Русланан 👑;;;\nFN:Руслан ан👑\nORG:Русланан👑\nTITLE:\nitem1.TEL;waid=+77789008940:+521 999 612 5657\nitem1.X-ABLabel:Русланан👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:Русланан 👑\nEND:VCARD`
+//await conn.sendMessage(m.chat, { contacts: { displayName: 'Русланан 👑', contacts: [{ vcard }] }}, {quoted: m})
 const data = global.owner.filter(([id, isCreator]) => id && isCreator)
 await conn.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
 }

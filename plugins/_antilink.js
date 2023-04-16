@@ -15,7 +15,7 @@ if (isBotAdmin) {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
 if (m.text.includes(linkThisGroup)) return !0
 }    
-await conn.sendButton(m.chat, `*「 АНТИ ССЫЛКА 」*\n*ВЫ НАРИШИЛИ ПРАЫВИЛА ГРУППЫ *\n*ДО ВСТРЕЧИ👋, ${await this.getName(m.sender)} СПАМЩИКИ НАДОЕЛИ УЖЕ *${isBotAdmin ? '' : '\n\n*ОТКУДА ВЫ БЛИН БЕРЕТЕСЬ*'}`, author, ['ВЫКЛЮЧИТЬ АНТИССЫЛКУ', '/выключит атиссылку'], m)    
+await conn.sendButton(m.chat, `*「 АНТИ ССЫЛКА 」*\n*ВЫ НАРИШИЛИ ПРАЫВИЛА ГРУППЫ *\n*ПОШЁЛ НАХРЕН ИЗ ГРУППЫ👋, ${await this.getName(m.sender)} ООО,БЛЯ СПАМЩИК*${isBotAdmin ? '' : '\n\n*ОТКУДА ВЫ БЕРЕТЕСЬ,ЗАЕБАЛИ УЖЕ*'}`, author, ['ВЫКЛЮЧИТЬ АНТИССЫЛКУ', '/выключит атиссылку'], m)    
 if (isBotAdmin && bot.restrict) {
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
